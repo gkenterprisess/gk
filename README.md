@@ -1,4 +1,4 @@
 # G.K.enterprises
 
 
-Owned by Tajinderpal singh
+Owned by Tajinderpal singh.
