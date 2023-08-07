@@ -74,6 +74,12 @@ font-size: 1.2rem;
 text-transform: uppercase;
 
 }
+
+.link:hover::before{
+    content: "-";
+    color: dodgerblue;
+    margin-right:0.2rem ;
+}
 .menu{
    padding-top:1rem ;
     padding-bottom:0.7rem ;
