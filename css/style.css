@@ -109,14 +109,7 @@ text-transform: uppercase;
 
     
 }
-/* .header{
-    transition:  linear;
-    background-color: rgb(255, 255, 255);
 
-
-   position: static;
-} */
-/* content for screen */
 .main{
     height: 94%;
     display: flex;
