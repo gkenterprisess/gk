@@ -1,7 +1,11 @@
 body{
     margin: 0;
+    overflow-x: hidden;
     padding: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+::selection{
+    background-color: rgba(32, 240, 255, 0.708);
 }
 .container{
     width: 100vw;
@@ -33,7 +37,7 @@ body{
     display: flex;
     align-items: center;
     padding: 0.4rem;
-
+  
     justify-content: space-between;
 }
 
@@ -47,10 +51,14 @@ body{
 .header{
     transition:  linear;
     background-color: rgb(255, 255, 255);
-
+   position: relative;
+   top: 0;
+   position: fixed;
+  width: 100%;
     height: fit-content;
     /* overflow: hidden; */
 }
+
 
 .fa-bars{
     margin-right:1rem ;
@@ -109,6 +117,7 @@ text-transform: uppercase;
 
     
 }
+
 .main{
     height: 94%;
     display: flex;
@@ -157,8 +166,60 @@ text-transform: uppercase;
     border-radius: 20px;
     width: 70vw;
     max-width:400px ;
+    margin-bottom:1rem ;
   
 }
+.serviceh{
+    margin-top:4rem ;
+align-items: center;
+padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.headings-services{
+    font-size: 2rem;
+    text-decoration: underline;
+
+    font-weight: 700;
+    color: dodgerblue;
+}
+.read{
+    color: dodgerblue;
+}
+.services{
+    padding: 2rem;
+    margin-top:2rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.service{
+    display: flex;
+    height: 175px;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    width: 205px;
+ 
+}
+#icon-service{
+    margin-left:0.2rem ;
+    margin-bottom:0.4rem ;
+}
+.heading-service{
+    color: black;
+    margin:0.7rem  0 0.5rem 0;
+    
+}
+.para-service{
+    margin: 0;
+    color: grey;
+    max-width: 17rem;
+}
+.content-service:hover{
+    transform: scale(1.1);
+    transition: all 0.4s ease;
+}
+
 /* media quriess */
 @media screen and (min-width:768px) and (max-width:1024px){
     .left{
@@ -196,6 +257,26 @@ text-transform: uppercase;
     padding: 1rem;
     font-size: 1.2rem;
     width: 420px;
+   }
+   .services{
+   display: flex;
+   flex-direction: column;
+   gap:4rem;
+  
+
+   }
+   .service{
+    height: 220px;
+    
+   }
+   .row,.row2{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+   }
+ 
+   .para-service{
+    max-width: 150px;
    }
 }
 @media screen and (min-width:1025px) and (max-width:1499px){
@@ -250,6 +331,20 @@ text-transform: uppercase;
     .para2{
         width: 400px;
     }
+    .services{
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .service{
+        width: 210px;
+    }
+    .row,.row2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        flex-direction: row;
+    }
 }
 @media screen and (min-width:1500px) {
     .mainscreen{
@@ -301,5 +396,24 @@ text-transform: uppercase;
     .qualityproducts{
         margin-left:47% ;
     }
-    
+    .serviceh{
+       padding:0 4rem 0 4.1rem;
+    }
+    .headings-services{
+        font-size: 2.7rem;
+    }
+    .services{
+        gap: 4.1rem;
+        flex-direction: column;
+    }
+    .service{
+        width: 210px;
+    }
+    .row,.row2{
+        width: 100%;
+        gap:7rem;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+    }
 }
