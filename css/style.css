@@ -41,7 +41,7 @@ body{
     color:#001f3f;
     margin: 0;
     letter-spacing: 0.1rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin: 0 0 0  0.7rem  ;
 }
 .header{
@@ -121,7 +121,7 @@ text-transform: uppercase;
 }
 .manu{
   color: white;
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   text-align: center;
   text-decoration: underline  rgba(255, 255, 255, 0.750);
 
@@ -144,11 +144,20 @@ text-transform: uppercase;
 .para2{
     color: white;
     margin: 0;
+    padding: 1rem;
     margin-bottom:2rem ;
     font-size: 1.2rem;
 }
+.image{
+    display: flex;
+    justify-content: end;
+    margin-right:1.7rem; 
+}
 .qualityproducts{
     border-radius: 20px;
+    width: 70vw;
+    max-width:400px ;
+  
 }
 /* media quriess */
 @media screen and (min-width:768px) and (max-width:1024px){
@@ -167,12 +176,15 @@ text-transform: uppercase;
     font-size: 4rem;
    }
    .below-main{
-    padding: 1rem;
+    padding: 2rem;
     flex-direction:row;
+    justify-content: space-around;
    }
    .heading{
     letter-spacing: 0.5rem;
     font-size: 2.7rem;
+    display: block;
+    margin: 0;
     line-height: 4.5rem;
    }
    .qualityproducts{
@@ -183,7 +195,7 @@ text-transform: uppercase;
    .para2{
     padding: 1rem;
     font-size: 1.2rem;
-    width: 500px;
+    width: 420px;
    }
 }
 @media screen and (min-width:1025px) and (max-width:1499px){
@@ -224,6 +236,16 @@ text-transform: uppercase;
  
         max-width: 800px;
      
+    }
+    .below-main{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .heading{
+        font-size: 4rem;
+    }
+    .para2{
+        width: 400px;
     }
 }
 @media screen and (min-width:1500px) {
