@@ -219,9 +219,7 @@ text-transform: uppercase;
         align-items: center;
         justify-content: space-around;
     }
-   
     
-  
     .ul{
         flex-direction: row;
         gap:1em;
