@@ -219,7 +219,7 @@ text-transform: uppercase;
         align-items: center;
         justify-content: space-around;
     }
-    
+
     .ul{
         flex-direction: row;
         gap:1em;
@@ -241,6 +241,11 @@ text-transform: uppercase;
     }
     .heading{
         font-size: 4rem;
+        margin: 0.7rem;
+    }
+    .image{
+        justify-content: center;
+        margin-left:45% ;
     }
     .para2{
         width: 400px;
@@ -277,4 +282,24 @@ text-transform: uppercase;
         max-width: 870px;
         font-size: 1.4rem;
     }
+    .below-main{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .heading{
+        font-size: 4rem;
+    }
+    .para2{
+        width: 500px;
+        font-size: 1.5rem;
+        columns: 2;
+
+    }
+    .image{
+        justify-content: center;
+    }
+    .qualityproducts{
+        margin-left:47% ;
+    }
+    
 }
