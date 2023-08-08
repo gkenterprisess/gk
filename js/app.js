@@ -4,13 +4,7 @@ let menubutton=document.querySelector('.fa-bars');
 let leftbutton=document.querySelector('.leftarrow');
 let rightbutton=document.querySelector('.rightarrow');
 let img=document.querySelector('.pics-sample');
-// let header=document.querySelector('.header');
-// // let distaance=header.offSetTop;
-// window.addEventListener('scroll',function(){
-//     if(window.scrollY>0){
-//         header.classList.toggle('sticky');
-//     }
-// })
+
 
 let images=[
     {
