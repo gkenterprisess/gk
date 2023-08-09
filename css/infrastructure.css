@@ -1,0 +1,240 @@
+:root{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+::selection{
+    background-color: rgba(255, 255, 255, 0.708);
+    color: black;
+}
+.container{
+    width: 100vw;
+    height:fit-content;
+    background-color: rgba(0, 0, 0, 0.886);
+}
+.mainscreen{
+    background: url(../images/imga/newminii.jpg);
+
+    background-blend-mode: multiply;
+    width: 98vw;
+    height: 80vh;
+    
+    
+    
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* nav bar  */
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: 0;
+
+}
+.nav{
+    display: flex;
+    align-items: center;
+    padding: 0.4rem;
+  
+    justify-content: space-between;
+}
+
+.enter{
+    color:#001f3f;
+    margin: 0;
+    letter-spacing: 0.1rem;
+    font-size: 1.8rem;
+    margin: 0 0 0  0.7rem  ;
+}
+.header{
+    transition:  linear;
+    background-color: rgb(255, 255, 255);
+   position: relative;
+   top: 0;
+   z-index: 1;
+   position: fixed;
+  width: 100%;
+    height: fit-content;
+    /* overflow: hidden; */
+}
+
+
+.fa-bars,.fa-xmark{
+    margin-right:1rem ;
+}
+.ul{
+    padding: 0;
+    margin: 0;
+}
+.listitem{
+    padding: 0;
+    line-height: 2rem;
+    list-style-type: none;
+}
+.ul{
+    display: flex;
+    flex-direction: column;
+
+    margin-left:2rem ;
+}
+/* .header{
+    transition:  linear;
+    background-color: rgb(255, 255, 255);
+
+
+   position: static;
+} */
+.link{
+text-decoration: none;
+color: black;
+font-weight: 700;
+font-size: 1.2rem;
+text-transform: uppercase;
+
+}
+
+.link:hover::before{
+    font-family: "Font Awesome 5 Free";
+     font-weight: 900; 
+    content: "\f068";
+    color: dodgerblue;
+    margin-right:0.2rem ;
+}
+.menu{
+   padding-top:1rem ;
+    padding-bottom:0.7rem ;
+ position: absolute;
+
+ background-color: white;
+ transition: 0.4s linear;
+ width: 98%;
+    display: block;
+}
+.menu.hide{
+ transition: 0.4s linear;
+
+    display: none;
+ position: absolute;
+
+    
+}
+
+.main{
+    height: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+
+    
+}
+.manu{
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+  text-decoration: underline  rgba(255, 255, 255, 0.750);
+
+}
+.para{
+    color: white;
+    max-width: 550px;
+    font-weight: 700;
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    .left{
+        margin-left: 1.5rem;
+    }
+   .listitem{
+    margin-left:1rem ;
+   }
+   .para{
+
+    font-size: 1.4rem;
+    max-width: 570px;
+    font-weight: 500;
+   }
+   .bestsection{
+    padding: 2rem;
+   }
+   .manu{
+    font-size: 4rem;
+   }
+}
+   @media screen and (min-width:1025px) and (max-width:1499px){
+    .fa-bars{
+        display: none;
+    }
+    .mainscreen{
+        border-radius: 0 0px 100px 0;
+    }
+    .menu.hide{
+        position: static;
+        background-color: transparent;
+        width: fit-content;
+
+       }
+       
+    #header{
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .ul{
+        flex-direction: row;
+        gap:1em;
+    }
+    .menu.hide{
+        display: block;
+    }
+    .manu{
+        font-size: 4.4rem;
+    }
+    .para{
+ 
+        max-width: 800px;
+     
+    }
+}
+@media screen and (min-width:1500px) {
+    .mainscreen{
+        border-radius: 0 0 100px 0;
+    }
+    .fa-bars{
+        display: none;
+    }
+    .menu.hide{
+        display: block;
+        position: static;
+        width: fit-content;
+    }
+    .header{
+        display: flex;
+        justify-content: space-around;
+        width: 100vw;
+        align-items: center;
+    }
+    .ul{
+        flex-direction: row;
+        gap:1.4rem;
+        width: fit-content;
+        display: flex;
+    }
+    .manu{
+        font-size: 5rem;
+    }
+    .para{
+        max-width: 870px;
+        font-size: 1.4rem;
+    }
+}
