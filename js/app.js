@@ -11,13 +11,13 @@ let images=[
         image:'../gk//images/img/397x300/02.jpg'
     },
     {
-        image:'../gk/images/imga/newproduct.jpg'
+        image:'../gk/images/imga/rimmini.jpg'
     },
     {
-        image:'../gk/images/imga/productsmini.jpg'
+        image:'../gk/images/imga/kolimini.jpg'
     },
     {
-        image:'../gk/images/imga/newmini.jpg'
+        image:'../gk/images/imga/newminii.jpg'
     },
     {
         image:'../gk/images/img/970x647/01.jpg'
