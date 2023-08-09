@@ -5,7 +5,8 @@ body{
     margin: 0;
     overflow-x: hidden;
     padding: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
 }
 ::selection{
     background-color: rgba(255, 255, 255, 0.708);
@@ -17,7 +18,7 @@ body{
     background-color: rgba(0, 0, 0, 0.886);
 }
 .mainscreen{
-    background: url(../images/imga/newmini.jpg);
+    background: url(../images/imga/newminii.jpg);
 
     background-blend-mode: multiply;
     width: 98vw;
@@ -442,6 +443,9 @@ background-color: black;
     align-items: center;
     height: fit-content;
     gap: 0.4rem;
+    color: white;
+    font-size: 700;
+    font-size: 1rem;
     border: 2px solid  dodgerblue
 }
 .mailus{
@@ -454,6 +458,8 @@ background-color: black;
     width: 100%;
 background-color: grey;
 height: 2px;
+border: 0;
+    outline: 0;
 }
 .copy{
     display: flex;
@@ -592,6 +598,7 @@ height: 2px;
    .ullink{
     display: flex;
     gap: 1rem;
+    flex-direction: column;
 
 }
 .listitemf{
@@ -742,6 +749,7 @@ height: 2px;
        }
        .ullink{
         display: flex;
+        flex-direction: column;
         gap: 1rem;
     
     }
@@ -922,6 +930,7 @@ height: 2px;
        }
        .ullink{
         display: flex;
+        flex-direction: column;
         gap: 1rem;
     
     }
