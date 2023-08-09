@@ -17,7 +17,7 @@ let images=[
         image:'../gk/images/imga/productsmini.jpg'
     },
     {
-        image:'../gk/images/imga/new.jpg'
+        image:'../gk/images/imga/newmini.jpg'
     },
     {
         image:'../gk/images/img/970x647/01.jpg'

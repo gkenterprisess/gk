@@ -17,7 +17,7 @@ body{
     background-color: rgba(0, 0, 0, 0.886);
 }
 .mainscreen{
-    background: url(../images/imga/new.jpg);
+    background: url(../images/imga/newmini.jpg);
 
     background-blend-mode: multiply;
     width: 98vw;
@@ -29,6 +29,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 /* nav bar  */
 
 .left{
@@ -99,7 +100,9 @@ text-transform: uppercase;
 }
 
 .link:hover::before{
-    content: "-";
+    font-family: "Font Awesome 5 Free";
+     font-weight: 900; 
+    content: "\f068";
     color: dodgerblue;
     margin-right:0.2rem ;
 }
@@ -386,6 +389,83 @@ width: 90vw;
     box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.886);
 }
+.bottomline{
+  margin: 0;
+    width: 100%;
+    height: 4px;
+    background: grey;
+}
+.footer{
+background-color: black;
+}
+.footerbox{
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+    justify-content: center;
+}
+.logof{
+    width: 4.2rem;
+    height: 4.1rem;
+}
+.hf{
+  
+    font-size: 2rem;
+    -webkit-background-clip: text;
+    font-weight: 700;
+    color: transparent;
+    background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+}
+.listitemf{
+    list-style: none;
+}
+.linkf{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+}
+.ullink{
+    padding: 0;
+}
+.flink{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem;
+    box-sizing: border-box;
+}
+.mail{
+    padding: 0.5rem;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    gap: 0.4rem;
+    border: 2px solid  dodgerblue
+}
+.mailus{
+    text-decoration: none;
+    
+    font-size: 1.4rem;
+    color: white;
+}
+.bottomf{
+    width: 100%;
+background-color: grey;
+height: 2px;
+}
+.copy{
+    display: flex;
+    justify-content: space-around;
+}
+.copyr{
+    color: grey;
+}
+.developed{
+    color: grey;
+    
+}
 /* media quriess */
 @media screen and (min-width:768px) and (max-width:1024px){
     .left{
@@ -505,6 +585,26 @@ width: 90vw;
     overflow: auto;
     gap:50px
    }
+   .footerbox{
+    justify-content: start;
+    padding: 1rem;
+   }
+   .ullink{
+    display: flex;
+    gap: 1rem;
+
+}
+.listitemf{
+    display: flex;
+    align-items: center;
+}
+.listitemf:hover::before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f068";
+    color: dodgerblue;
+    margin-right:0.2rem ;
+}
 
 }
 @media screen and (min-width:1025px) and (max-width:1499px){
@@ -636,6 +736,27 @@ width: 90vw;
         overflow: auto;
         gap:50px
        }
+       .footerbox{
+        justify-content: start;
+        padding: 1rem;
+       }
+       .ullink{
+        display: flex;
+        gap: 1rem;
+    
+    }
+    .listitemf{
+        display: flex;
+        align-items: center;
+    }
+    .listitemf:hover::before{
+        font-family: "Font Awesome 5 Free"; 
+        font-weight: 900; 
+        content: "\f068";
+        color: dodgerblue;
+        margin-right:0.2rem ;
+    }
+    
 
 }
 @media screen and (min-width:1500px) {
@@ -653,7 +774,7 @@ width: 90vw;
     .header{
         display: flex;
         justify-content: space-around;
-        width: 100%;
+        width: 100vw;
         align-items: center;
     }
     .ul{
@@ -795,4 +916,25 @@ width: 90vw;
         overflow: auto;
         gap:50px
        }
+       .footerbox{
+        justify-content: start;
+        padding: 1rem;
+       }
+       .ullink{
+        display: flex;
+        gap: 1rem;
+    
+    }
+    .listitemf{
+        display: flex;
+        align-items: center;
+    }
+    .listitemf:hover::before{
+        font-family: "Font Awesome 5 Free"; 
+        font-weight: 900; 
+        content: "\f068";
+        color: dodgerblue;
+        margin-right:0.2rem ;
+    }
+    
 }
