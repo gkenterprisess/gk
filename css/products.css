@@ -423,6 +423,7 @@ text-transform: uppercase;
   .client-content{
     flex-direction: row;
     align-items: start;
+    justify-content: space-around;
     padding:0;
   }
   .para-client{
@@ -575,10 +576,12 @@ text-transform: uppercase;
   }
   .para-client{
     width: 45%;
+    font-size: 1.2rem;
+
   }
   .image-client{
     width: 27rem;
-    height: 27rem;
+    height: 24rem;
   }
    .footerbox{
     justify-content: start;
@@ -716,9 +719,10 @@ text-transform: uppercase;
   }
   .para-client{
     width: 45%;
+    font-size: 1.4rem;
   }
   .image-client{
-    width: 27rem;
+    width: 40rem;
     height: 27rem;
   }
    .footerbox{
