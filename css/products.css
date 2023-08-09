@@ -505,7 +505,6 @@ text-transform: uppercase;
         width: 40%;
         color: white;
        }
-    
        .image-best{
         width: 25rem;
         border-radius:  5rem 0;
@@ -519,6 +518,10 @@ text-transform: uppercase;
        }
        .line{
         display: none;
+       }
+       .description-product{
+        width: 440px;
+        
        }
        .productsession{
         padding: 2rem;
@@ -563,7 +566,7 @@ text-transform: uppercase;
     font-size: 2.4rem;
    }
    .client{
-    padding: 1.2.4rem;
+    padding: 2.4rem;
    }
    .clientheading{
     font-size: 2.4rem;
