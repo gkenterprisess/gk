@@ -213,7 +213,7 @@ hr{
     padding: 1.5rem;
     margin-top:2rem ;
 
-width: 80%;
+width: 90%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -225,8 +225,8 @@ width: 80%;
 
     height: 175px;
     flex-direction: column;
-    margin-bottom: 2rem;
-    width: 225px;
+    margin-bottom: 4rem;
+    width: 255px;
     /* max-width: 20rem; */
  
 }
