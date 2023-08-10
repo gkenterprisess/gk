@@ -52,6 +52,7 @@ body{
     letter-spacing: 0.1rem;
     font-size: 1.8rem;
     margin: 0 0 0  0.7rem  ;
+    font-size: 1.2rem;
 }
 .header{
     transition:  linear;
@@ -148,12 +149,202 @@ text-transform: uppercase;
     max-width: 550px;
     font-weight: 700;
 }
+.structure{
+    padding: 1rem;
+}
+.build{
+    color: white;
+    margin-bottom: 0;
+    font-size: 1.7rem;
+}
+.line-head{
+    background-color: dodgerblue;
+    height: 2px;
+    width: 80px;
+    outline: 0;
+    border: 0;
+
+}
+.para-structure,.para2-structure{
+    color: white;
+}
+.image-structure{
+    width: 80vw;
+    margin: 5vw;
+}
+.coustomers{
+    padding: 1rem;
+
+}
+.content-coustomers{
+    margin-top: 4rem;
+    padding: 0.4rem;
+}
+.whydo{
+    margin-bottom:0 ;
+}
+.heading-choose{
+    margin-bottom: 0;
+}
+.para-choose{
+    margin-top:0;
+    width: 80vw;
+    max-width: 500px;
+}
+
+.infras{
+    background-color: rgba(0, 0, 0, 0.886);
+   
+    padding: 1rem;
+}
+.heading-infra{
+    color: white;
+    margin-bottom:0;
+}
+
+.content-infra{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+.image-infra{
+    width: 85vw;
+    max-width: 500px;
+    height: 20rem;
+}
+.slider{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 1rem;
+
+}
+.leftbutton,.rightbutton{
+width: fit-content;
+border: 2px solid dodgerblue;
+border-radius:50%;
+background-color: transparent;
+
+}
+.leftbutton{
+margin-top: 1rem;
+}
+.slider-img{
+width: 84vw;
+height: 40vh;
+}
+.slidermain{
+background-color:  rgba(0, 0, 0, 0.886);
+
+
+}
+.sliderheading{
+color: white;
+margin-bottom: 0;
+}
+.footer{
+    background-color: black;
+    }
+    .footerbox{
+        display: flex;
+        align-items: center;
+        gap: 0.2em;
+        justify-content: center;
+    }
+    .logof{
+        width: 4.2rem;
+        height: 4.1rem;
+    }
+    .hf{
+        font-size: 2rem;
+        -webkit-background-clip: text;
+        font-weight: 700;
+        color: transparent;
+        background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+    }
+    .listitemf{
+        list-style: none;
+    }
+    .linkf{
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;
+        line-height: 2.2rem;
+    }
+    .ullink{
+        padding: 0;
+    }
+    .flink{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.2rem;
+        box-sizing: border-box;
+    }
+    .mail{
+        padding: 0.5rem;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        height: fit-content;
+        gap: 0.4rem;
+        color: white;
+        font-size: 700;
+        font-size: 1rem;
+        border: 2px solid  dodgerblue
+    }
+    .mailus{
+        text-decoration: none;
+        
+        font-size: 1.4rem;
+        color: white;
+    }
+    .bottomf{
+        width: 100%;
+    background-color: grey;
+    height: 2px;
+    border: 0;
+    outline: 0;
+    }
+    .copy{
+        display: flex;
+        justify-content: space-around;
+    }
+    .copyr{
+        color: grey;
+    }
+    .developed{
+        color: grey;
+        
+    }
+    .linebefore{
+        margin: 0;
+        background-color: grey;
+        height: 2px;
+        border: 0;
+        outline: 0;
+    }
+    .listitemf:hover::before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f068";
+    color: dodgerblue;
+    margin-right:0.2rem ;
+}
 @media screen and (min-width:768px) and (max-width:1024px){
     .left{
         margin-left: 1.5rem;
     }
    .listitem{
     margin-left:1rem ;
+   }
+   .nav{
+    justify-content: space-between;
+   }
+   .enter{
+    font-size: 2rem;
    }
    .para{
 
@@ -167,6 +358,112 @@ text-transform: uppercase;
    .manu{
     font-size: 4rem;
    }
+   .structure{
+    margin-top: 2rem;
+   }
+ .build{
+    font-size: 2.4rem;
+ }
+   .row-structure , .row2-structure{
+    display: flex;
+    
+    justify-content: space-around;
+   }
+   .row-structure{
+    justify-content: space-between;
+   }
+   .para-structure,.para2-structure{
+    width: 40%;
+   }
+   .image-structure{
+    margin-top: 1rem;
+    width: 20rem;
+   }
+   .whydo{
+    font-size:2rem ;
+    
+   }
+   .content-coustomers{
+  display: flex;
+  flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    padding-top: 2rem;
+}
+   
+
+   .row-coustomer,.row2-coustomer{
+    display: flex;
+    justify-content: space-evenly;
+
+   }
+   .para-choose{
+    margin-top:0;
+    width: 220px;
+}
+.infras{
+    background-color: rgba(0, 0, 0, 0.886);
+    padding: 1rem;
+}
+.infrash{
+    padding: 1rem;
+}
+.heading-infra{
+    color: white;
+    margin-bottom:0;
+    font-size: 2rem;
+}
+
+.content-infra{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+.row-infra,.row2-infra{
+display: flex;
+gap: 1rem;
+}
+.image-infra{
+    width:240px;
+
+    height: 14rem;
+}
+.slider{
+    justify-content: center;
+    flex-direction: row;
+   }
+   .slider-img{
+    height: 25rem;
+    width: 27rem;
+   }
+   .slidermain{
+    padding: 2rem;
+
+   }
+.sliderheading{
+    font-size: 2.4rem;
+    color: white;
+    margin-bottom: 0;
+   }
+   .footerbox{
+    justify-content: start;
+    padding: 1rem;
+   }
+   .ullink{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+
+}
+.listitemf{
+    display: flex;
+    align-items: center;
+}
+
+
+
 }
    @media screen and (min-width:1025px) and (max-width:1499px){
     .fa-bars{
@@ -205,6 +502,119 @@ text-transform: uppercase;
         max-width: 800px;
      
     }
+    .structure{
+        margin-top: 2rem;
+       }
+     .build{
+        font-size: 4rem;
+     }
+       .row-structure , .row2-structure{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+       }
+       .row-structure{
+        justify-content: space-evenly;
+       }
+       .para-structure,.para2-structure{
+        width: 40%;
+       }
+       .image-structure{
+        margin-top: 1rem;
+        width: 20rem;
+       }
+       .coustomerh{
+        padding: 1rem;
+       }
+       .whydo{
+        font-size: 2.7rem;
+       }
+       .content-coustomers{
+        margin-top: 0rem;
+        padding: 0.4rem;
+       display: flex;
+  flex-direction: column;
+        padding: 2rem;
+    }
+     
+    
+       .row-coustomer,.row2-coustomer{
+        display: flex;
+        justify-content: space-evenly;
+       }
+       .para-choose{
+        margin-top:0;
+        width: 240px;
+    }
+    .infras{
+        background-color: rgba(0, 0, 0, 0.886);
+        padding: 1rem;
+    }
+    .infrash{
+        padding: 1rem;
+    }
+    .heading-infra{
+        color: white;
+        margin-bottom:0;
+        font-size: 2.7rem;
+    }
+    
+    .content-infra{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    .row-infra,.row2-infra{
+    display: flex;
+    gap: 1rem;
+    }
+    .image-infra{
+        width:280px;
+    
+        height: 14rem;
+    }
+    .slider{
+  
+        justify-content: center;
+        flex-direction: row;
+       }
+       .slider-img{
+        height: 27rem;
+        width: 40rem;
+       }
+       .slidermain{
+        padding: 2rem;
+    
+       }
+       .sliderheading{
+        color: white;
+        margin-bottom: 0;
+        font-size: 2.7rem;
+       }
+        .footerbox{
+    justify-content: start;
+    padding: 1rem;
+   }
+   .ullink{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.listitemf{
+    display: flex;
+    align-items: center;
+}
+.listitemf:hover::before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f068";
+    color: dodgerblue;
+    margin-right:0.2rem ;
+}
+
 }
 @media screen and (min-width:1500px) {
     .mainscreen{
@@ -237,4 +647,118 @@ text-transform: uppercase;
         max-width: 870px;
         font-size: 1.4rem;
     }
+    .structure{
+        margin-top: 2rem;
+       }
+     .build{
+        font-size: 4rem;
+     }
+       .row-structure , .row2-structure{
+        display: flex;
+        
+        justify-content: space-around;
+       }
+      
+       .para-structure,.para2-structure{
+        width: 27rem;
+       }
+       .image-structure{
+           margin: 0;
+        margin-top: 1rem;
+        width: 20rem;
+       }
+       .coustomerh{
+        padding: 2.4rem;
+        padding-bottom: 1rem;
+       }
+       .whydo{
+        font-size: 2.7rem;
+       }
+       .content-coustomers{
+        margin-top: 0rem;
+        padding: 0.4rem;
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        padding: 2.7rem;
+    }
+      
+    .row-coustomer,.row2-coustomer{
+     display: flex;
+     justify-content: space-evenly;
+
+    }
+    .para-choose{
+     margin-top:0;
+     width: 250px;
+ }
+ .infras{
+    background-color: rgba(0, 0, 0, 0.886);
+    padding: 1rem;
+}
+.infrash{
+    padding: 2.4rem;
+}
+.heading-infra{
+    color: white;
+    margin-bottom:0;
+    font-size: 2.7rem;
+}
+
+.content-infra{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+.row-infra,.row2-infra{
+display: flex;
+gap: 1rem;
+}
+.image-infra{
+    width:450px;
+
+    height: 20rem;
+}
+
+.slider{
+justify-content: center;
+flex-direction: row;
+}
+.slider-img{
+width: 40rem;
+height: 27rem;
+}
+.slidermain{
+padding: 4rem;
+
+}
+.sliderheading{
+font-size:2.7rem ;
+color: white;
+margin-bottom: 0;
+}
+.footerbox{
+    justify-content: start;
+    padding: 1rem;
+   }
+   .ullink{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.listitemf{
+    display: flex;
+    align-items: center;
+}
+.listitemf:hover::before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f068";
+    color: dodgerblue;
+    margin-right:0.2rem ;
+}
+
 }

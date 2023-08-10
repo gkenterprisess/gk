@@ -5,7 +5,6 @@ let leftbutton=document.querySelector('.leftarrow');
 let rightbutton=document.querySelector('.rightarrow');
 let img=document.querySelector('.pics-sample');
 
-
 let images=[
     {
         image:'../gk//images/img/397x300/02.jpg'

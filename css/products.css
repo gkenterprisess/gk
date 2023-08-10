@@ -348,6 +348,13 @@ text-transform: uppercase;
         border: 0;
         outline: 0;
     }
+    .listitemf:hover::before{
+        font-family: "Font Awesome 5 Free"; 
+        font-weight: 900; 
+        content: "\f068";
+        color: dodgerblue;
+        margin-right:0.2rem ;
+    }
 @media screen and (min-width:768px) and (max-width:1024px){
     .left{
         margin-left: 1.5rem;
@@ -447,13 +454,7 @@ text-transform: uppercase;
     display: flex;
     align-items: center;
 }
-.listitemf:hover::before{
-    font-family: "Font Awesome 5 Free"; 
-    font-weight: 900; 
-    content: "\f068";
-    color: dodgerblue;
-    margin-right:0.2rem ;
-}
+
 
 
 }
