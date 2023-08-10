@@ -3,7 +3,7 @@ let menubutton=document.querySelector('.fa-bars');
 let menu=document.querySelector('.menu');
 let images=[
     {
-        image:'../gk//images/img/397x300/02.jpg'
+        image:'../gk/images/img/397x300/02.jpg'
     },
     {
         image:'../gk/images/imga/rimmini.jpg'
