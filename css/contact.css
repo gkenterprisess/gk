@@ -232,6 +232,9 @@ height: 2px;
 outline: 1px solid dodgerblue;
   
 }
+#query{
+    resize: vertical;
+}
 .notice{
     font-size: 0.7rem;
     margin: 0;
