@@ -11,16 +11,40 @@ let email=document.querySelector('#email');
 let number=document.querySelector('#number');
 let queryu=document.querySelector('#query');
 let submitbt=document.querySelector('#submit');
-submitbt.addEventListener('click',async function(){
 
-const { dasta, error } = await supabase
-.from('user_data')
-.insert([
-  { fullname:name.value,emailid:email.value,phone_number:number.value,query:queryu.value },
-])
-.select()
+submitbt.setAttribute('disabled','true');
+function validationinjs(){
+if(email.value.includes('@')&&name.value!==""&&number.value!==""){
+    submitbt.removeAttribute('disabled');  
+  
+}
+else{
+    console.log("nopes");
+}
+};
+name.addEventListener('input',validationinjs);
+email.addEventListener('input',validationinjs);
 
-});
+let { data: user_data, error } = await supabase
+  .from('user_data')
+  .select('*')
+console.log(user_data);
+number.addEventListener('input',validationinjs);
+
+
+    submitbt.addEventListener('click',async function(){
+
+        const { data, error } = await supabase
+        .from('user_data')
+        .insert([
+          { fullname:name.value,emailid:email.value,phone_number:number.value,query:queryu.value },
+        ])
+        .select();
+       
+        });
+        
+
+
 
 
 menubutton.addEventListener("click",function(){
