@@ -10,7 +10,7 @@ let images=[
         image:'../gk//images/img/397x300/02.jpg'
     },
     {
-        image:'../gk/images/imga/rimmini.jpg'
+        image:'../gk/images/imga/rimnew.jpg'
     },
     {
         image:'../gk/images/imga/kolimini.jpg'
@@ -51,7 +51,7 @@ let indexs=images.length-1;
     })
 
 window.addEventListener('load',function(){
-    img.src=images[indexs].image;
+    img.src=images[1].image;
 })
 menubutton.addEventListener("click",function(){
 menu.classList.toggle('hide');

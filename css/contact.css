@@ -192,7 +192,10 @@ height: 2px;
 .forms{
     display: flex;
     justify-content: center;
-    padding: 1rem;
+    /* padding: 1rem; */
+    width: 97vw;
+    margin: 0;
+    box-sizing: border-box;
 }
 .contact{
     margin: 0;
@@ -217,10 +220,11 @@ height: 2px;
     
 }
 .mainform{
+    display: flex;
     flex-direction: column;
-    
+    /* align-items: center; */
+    padding: 1rem;
 
-    padding: 2rem;
 }
 #name,#email,#number,#query{
     padding: 0.5rem;
@@ -256,6 +260,95 @@ outline: 2px solid dodgerblue;
 .namel{
 line-height: 2rem;
 }
+.footer{
+    background-color: black;
+    }
+    .footerbox{
+        display: flex;
+        align-items: center;
+        gap: 0.2em;
+        justify-content: center;
+    }
+    .logof{
+        width: 4.2rem;
+        height: 4.1rem;
+    }
+    .hf{
+        font-size: 2rem;
+        -webkit-background-clip: text;
+        font-weight: 700;
+        color: transparent;
+        background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+    }
+    .listitemf{
+        list-style: none;
+    }
+    .linkf{
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;
+        line-height: 2.2rem;
+    }
+    .ullink{
+        padding: 0;
+    }
+    .flink{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.2rem;
+        box-sizing: border-box;
+    }
+    .mail{
+        padding: 0.5rem;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        height: fit-content;
+        gap: 0.4rem;
+        color: white;
+        font-size: 700;
+        font-size: 1rem;
+        border: 2px solid  dodgerblue
+    }
+    .mailus{
+        text-decoration: none;
+        
+        font-size: 1.4rem;
+        color: white;
+    }
+    .bottomf{
+        width: 100%;
+    background-color: grey;
+    height: 2px;
+    border: 0;
+    outline: 0;
+    }
+    .copy{
+        display: flex;
+        justify-content: space-around;
+    }
+    .copyr{
+        color: grey;
+    }
+    .developed{
+        color: grey;
+        
+    }
+    .linebefore{
+        margin: 0;
+        background-color: grey;
+        height: 2px;
+        border: 0;
+        outline: 0;
+    }
+    .listitemf:hover::before{
+        font-family: "Font Awesome 5 Free"; 
+        font-weight: 900; 
+        content: "\f068";
+        color: dodgerblue;
+        margin-right:0.2rem ;
+    }
 @media screen and (min-width:768px) and (max-width:1024px){
     .left{
         margin-left: 1.5rem;
@@ -294,6 +387,21 @@ line-height: 2rem;
     flex-direction: column;
     
 }
+.footerbox{
+    justify-content: start;
+    padding: 1rem;
+   }
+   .ullink{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+
+}
+.listitemf{
+    display: flex;
+    align-items: center;
+}
+
 }
 @media screen and (min-width:1025px) and (max-width:1499px){
     .fa-bars{
@@ -359,6 +467,21 @@ line-height: 2rem;
     p{
         height: fit-content;
     }
+    .footerbox{
+        justify-content: start;
+        padding: 1rem;
+       }
+       .ullink{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    
+    }
+    .listitemf{
+        display: flex;
+        align-items: center;
+    }
+
     
 }
 @media screen and (min-width:1500px) {
@@ -417,5 +540,19 @@ font-size: 2.7rem;
         display: flex;
         flex-direction: column;
         
+    }
+    .footerbox{
+        justify-content: start;
+        padding: 1rem;
+       }
+       .ullink{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    
+    }
+    .listitemf{
+        display: flex;
+        align-items: center;
     }
 }

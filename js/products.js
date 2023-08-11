@@ -6,7 +6,7 @@ let images=[
         image:'../gk/images/img/397x300/02.jpg'
     },
     {
-        image:'../gk/images/imga/rimmini.jpg'
+        image:'../gk/images/imga/rimnew.jpg'
     },
     {
         image:'../gk/images/imga/kolimini.jpg'
@@ -43,7 +43,7 @@ right.addEventListener('click',function(){
     }
 })
 window.addEventListener('load',function(){
-    picture.src=images[0].image;
+    picture.src=images[1].image;
 });
 menubutton.addEventListener("click",function(){
 menu.classList.toggle('hide');

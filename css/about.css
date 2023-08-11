@@ -216,7 +216,7 @@ text-transform: uppercase;
     width: 80vw;
     max-width: 480px;
 }
-serviceh{
+.serviceh{
     margin-top:4rem ;
 align-items: center;
 width: 90%;
@@ -249,7 +249,7 @@ hr{
     color: dodgerblue;
 }
 .services{
-    padding: 1.4rem;
+    /* padding: 1.4rem; */
     margin-top:2rem ;
 
 width: 90%;
@@ -630,7 +630,7 @@ width: 90%;
         gap: 5rem;
         flex-direction: row;
     }
-    .footerbox{
+   .footerbox{
         justify-content: start;
         padding: 1rem;
        }
@@ -645,7 +645,7 @@ width: 90%;
         align-items: center;
     }
     .listitemf:hover::before{
-        font-family: "Font Awesome 5 Free"; 
+        font-family: "Fo nt Awesome 5 Free"; 
         font-weight: 900; 
         content: "\f068";
         color: dodgerblue;
