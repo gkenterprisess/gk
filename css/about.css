@@ -97,6 +97,9 @@ color: black;
 font-weight: 700;
 font-size: 1.2rem;
 text-transform: uppercase;
+display: block;
+width: 100%;
+
 
 }
 
@@ -320,15 +323,21 @@ width: 90%;
   }
   .listitemf{
       list-style: none;
+    width: 100%;
+
   }
   .linkf{
       text-decoration: none;
       color: white;
       font-size: 1.2rem;
+    width: 100%;
+
       line-height: 2.2rem;
   }
   .ullink{
       padding: 0;
+    width: 100%;
+
   }
   .flink{
       display: flex;
