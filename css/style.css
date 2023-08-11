@@ -86,22 +86,17 @@ body{
 }
 /* .header{
     transition:  linear;
-    background-color: rgb(255, 255, 255);
-
-
-   position: static;
-} */
+    background-color: rgb(255, 255, 255);*/
 .link{
 text-decoration: none;
 color: black;
 font-weight: 700;
-display: block;
+display: inline-flex;
 width: 100%;
 font-size: 1.2rem;
 text-transform: uppercase;
 
 }
-
 .link:hover::before{
     font-family: "Font Awesome 5 Free";
      font-weight: 900; 
@@ -477,6 +472,13 @@ border: 0;
 .developed{
     color: grey;
     
+}
+.listitemf:hover::before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f068";
+    color: dodgerblue;
+    margin-right:0.2rem ;
 }
 /* media quriess */
 @media screen and (min-width:768px) and (max-width:1024px){

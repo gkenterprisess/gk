@@ -296,6 +296,7 @@ width: 100%;
         text-decoration: none;
         color: white;
         font-size: 1.2rem;
+        display: inline-flex;
         width: 90%;
         line-height: 2.2rem;
     }
