@@ -25,6 +25,15 @@ let images=[
     },
     {
         image:'../gk/images/img/970x647/infra8.jpg'
+    },
+    {
+        image:'../gk/images/imga/newraw.jpg'
+    },
+    {
+        image:'../gk/images/imga/pack.jpg'
+    },
+    {
+        image:'../gk/images/imga/rimnew.jpg'
     }
 ];
 let picture=document.querySelector('.slider-img');
@@ -65,5 +74,5 @@ menubutton.addEventListener("click",function(){
         }
     })
     window.addEventListener('load',function(){
-        picture.src=images[0].image;
+        picture.src=images[4].image;
     });

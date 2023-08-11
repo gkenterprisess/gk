@@ -496,7 +496,7 @@ text-transform: uppercase;
      
     }
     .bestsection{
-        padding: 4rem;
+        padding: 2rem;
     }
     .content-best{
         display: flex;
@@ -521,11 +521,12 @@ text-transform: uppercase;
         display: none;
        }
        .description-product{
-        width: 440px;
+        width: 20rem;
         
        }
        .productsession{
-        padding: 2rem;
+        padding: 1rem;
+        outline: 5px solid black;
        }
        .rowp1,.rowp2{
         display: flex;
