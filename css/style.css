@@ -86,11 +86,7 @@ body{
 }
 /* .header{
     transition:  linear;
-    background-color: rgb(255, 255, 255);
-
-
-   position: static;
-} */
+    background-color: rgb(255, 255, 255);*/
 .link{
 text-decoration: none;
 color: black;
