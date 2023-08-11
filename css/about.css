@@ -97,7 +97,7 @@ color: black;
 font-weight: 700;
 font-size: 1.2rem;
 text-transform: uppercase;
-display: block;
+display: inline-flex;
 width: 100%;
 
 
@@ -382,6 +382,13 @@ width: 90%;
       color: grey;
       
   }
+  .listitemf:hover::before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f068";
+    color: dodgerblue;
+    margin-right:0.2rem ;
+}
 
 @media screen and (min-width:768px) and (max-width:1024px){
     .left{
