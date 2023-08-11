@@ -97,6 +97,8 @@ color: black;
 font-weight: 700;
 font-size: 1.2rem;
 text-transform: uppercase;
+display: block;
+width: 100%;
 
 }
 
@@ -288,15 +290,18 @@ text-transform: uppercase;
     }
     .listitemf{
         list-style: none;
+        width: 100%;
     }
     .linkf{
         text-decoration: none;
         color: white;
         font-size: 1.2rem;
+        width: 90%;
         line-height: 2.2rem;
     }
     .ullink{
         padding: 0;
+        width: 100%;
     }
     .flink{
         display: flex;
@@ -448,10 +453,14 @@ text-transform: uppercase;
     display: flex;
     gap: 1rem;
     flex-direction: column;
-
+   
+}
+.linkf{
+    width: 90%;
 }
 .listitemf{
     display: flex;
+    
     align-items: center;
 }
 
@@ -598,6 +607,7 @@ text-transform: uppercase;
     gap: 1rem;
 
 }
+
 .listitemf{
     display: flex;
     align-items: center;
@@ -738,11 +748,14 @@ text-transform: uppercase;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    
 
 }
+
 .listitemf{
     display: flex;
     align-items: center;
+  
 }
 .listitemf:hover::before{
     font-family: "Font Awesome 5 Free"; 

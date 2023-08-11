@@ -11,6 +11,6 @@ if(menubutton.classList.contains('fa-bars')){
 }
 else{
     menubutton.classList.add('fa-bars');
-    menubutton.classList.remove('fa-xmark')
+    menubutton.classList.remove('fa-xmark');
 }
 });
