@@ -4,7 +4,6 @@ let menu=document.querySelector('.menu');
 
 menubutton.addEventListener("click",function(){
 menu.classList.toggle('hide');
-
 if(menubutton.classList.contains('fa-bars')){
     menubutton.classList.add('fa-xmark');
     menubutton.classList.remove('fa-bars');
