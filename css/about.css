@@ -99,8 +99,6 @@ font-size: 1.2rem;
 text-transform: uppercase;
 display: inline-flex;
 width: 100%;
-
-
 }
 
 .link:hover::before{
