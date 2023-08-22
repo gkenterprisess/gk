@@ -16,6 +16,9 @@ let images=[
     },
     {
         image:'../gk/images/img/970x647/01.jpg'
+    },
+    {
+        image:'../gk/images/imga/boki.jpg'
     }
 ];
 let picture=document.querySelector('.slider-img');

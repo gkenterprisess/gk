@@ -34,6 +34,12 @@ let images=[
     },
     {
         image:'../gk/images/imga/rimnew.jpg'
+    },
+    {
+        image:'../gk/images/imga/boki.jpg'
+    },
+    {
+        iamge:'../gk/images/imga/infras.jpg'
     }
 ];
 let picture=document.querySelector('.slider-img');
@@ -42,7 +48,6 @@ let right=document.querySelector('.rightbutton');
 let indexss=images.length-1;
 menubutton.addEventListener("click",function(){
     menu.classList.toggle('hide');
-    
     if(menubutton.classList.contains('fa-bars')){
         menubutton.classList.add('fa-xmark');
         menubutton.classList.remove('fa-bars');
