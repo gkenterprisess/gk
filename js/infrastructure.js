@@ -34,6 +34,12 @@ let images=[
     },
     {
         image:'../gk/images/imga/rimnew.jpg'
+    },
+    {
+        image:'../gk/images/imga/boki.jpg'
+    },
+    {
+        iamge:'../gk/images/imga/infras.jpg'
     }
 ];
 let picture=document.querySelector('.slider-img');
