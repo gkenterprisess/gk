@@ -3,43 +3,43 @@ let menubutton=document.querySelector('.fa-bars');
 let menu=document.querySelector('.menu');
 let images=[
     {
-        image:'../gk/images/imga/infra.jpg'
+        image:'images/imga/infra.jpg'
     },
     {
-        image:'../gk/images/imga/infra2.jpg'
+        image:'images/imga/infra2.jpg'
     },
     {
-        image:'../gk/images/img/970x647/infra1.JPG'
+        image:'images/img/970x647/infra1.JPG'
     },
     {
-        image:'../gk/images/imga/machinemini.jpg'
+        image:'images/imga/machinemini.jpg'
     },
     {
-        image:'../gk/images/img/970x647/infra5.jpg'
+        image:'images/img/970x647/infra5.jpg'
     },
     {
-        image:'../gk/images/imga/rwawm.jpg'
+        image:'images/imga/rwawm.jpg'
     },
     {
-        image:'../gk/images/img/970x647/infra9.jpg'
+        image:'images/img/970x647/infra9.jpg'
     },
     {
-        image:'../gk/images/img/970x647/infra8.jpg'
+        image:'images/img/970x647/infra8.jpg'
     },
     {
-        image:'../gk/images/imga/newraw.jpg'
+        image:'images/imga/newraw.jpg'
     },
     {
-        image:'../gk/images/imga/pack.jpg'
+        image:'images/imga/pack.jpg'
     },
     {
-        image:'../gk/images/imga/rimnew.jpg'
+        image:'images/imga/rimnew.jpg'
     },
     {
-        image:'../gk/images/imga/boki.jpg'
+        image:'images/imga/boki.jpg'
     },
     {
-        iamge:'../gk/images/imga/infras.jpg'
+        iamge:'images/imga/infras.jpg'
     }
 ];
 let picture=document.querySelector('.slider-img');
