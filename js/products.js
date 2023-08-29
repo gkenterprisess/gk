@@ -3,22 +3,22 @@ let menubutton=document.querySelector('.fa-bars');
 let menu=document.querySelector('.menu');
 let images=[
     {
-        image:'../gk/images/img/397x300/02.jpg'
+        image:'images/img/397x300/02.jpg'
     },
     {
-        image:'../gk/images/imga/rimnew.jpg'
+        image:'images/imga/rimnew.jpg'
     },
     {
-        image:'../gk/images/imga/kolimini.jpg'
+        image:'images/imga/kolimini.jpg'
     },
     {
-        image:'../gk/images/imga/newminii.jpg'
+        image:'images/imga/newminii.jpg'
     },
     {
-        image:'../gk/images/img/970x647/01.jpg'
+        image:'images/img/970x647/01.jpg'
     },
     {
-        image:'../gk/images/imga/boki.jpg'
+        image:'images/imga/boki.jpg'
     }
 ];
 let picture=document.querySelector('.slider-img');
